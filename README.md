@@ -18,6 +18,7 @@ The repository includes the following files:
 - results.html: A HTML file that predicts the flower species based on the inputs provided in success.html.
 - model.pkl: A pickle file that contains the trained Random Forest Classifier.
 - app.py: The main Flask application that ties everything together.
+- style.css: A CSS file that contains the styles for the HTML pages in the application. It is used to format and style the HTML elements present in index.html, success.html, and results.html.
 ## How to run the application
 
 1. Clone the repository to your local machine
