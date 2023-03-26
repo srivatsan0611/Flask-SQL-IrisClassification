@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pymysql
 import pickle
-app = Flask(__name__,template_folder='./')
+app = Flask(__name__,template_folder='./',static_folder='./', static_url_path='')
 app.secret_key = 'super secret key'
 
 with open('model.pkl', 'rb') as f:
